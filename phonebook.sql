@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS phonebook;
+
+CREATE TABLE IF NOT EXISTS phonebook (
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    phone TEXT NOT NULL
+);
